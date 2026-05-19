@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mantenimiento y Cuidados - PCBuilderPro</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="dark-theme"> <!-- Dark theme by default -->
+    <!-- Navigation -->
+    <header class="navbar">
+        <div class="container nav-content">
+            <div class="logo">
+                <span class="logo-text">PCBuilder<span class="highlight">Pro</span></span>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="#maintenance" class="active">Guía de Cuidados</a></li>
+                    <li><a href="../configurador/index.html">Ir al Configurador </a></li>
+                </ul>
+            </nav>
+            <button class="mobile-menu-btn" aria-label="Menu" id="mobile-menu-btn">
+                </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="hero-background">
+                <div class="glow-orb primary-orb"></div>
+                <div class="glow-orb secondary-orb"></div>
+            </div>
+            <div class="container hero-content">
+                <h1 class="hero-title">Cuida tu Setup.<br>Maximiza su <span class="text-gradient">Vida Útil</span>.</h1>
+                <p class="hero-subtitle">Descubre las mejores prácticas de mantenimiento, limpieza y optimización para que tu PC rinda como el primer día durante años.</p>
+            </div>
+        </section>
+
+        <!-- Maintenance Guides Section -->
+        <section id="maintenance" class="maintenance-section pb-20">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2 class="section-title">El Arte del Mantenimiento</h2>
+                    <p class="section-desc">Seis pilares fundamentales para mantener tu sistema en óptimas condiciones, tanto a nivel físico como lógico.</p>
+                </div>
+                <div class="guides-grid">
+                    <!-- 1. Limpieza Física (Original) -->
+                    <article class="guide-card" id="hardware">
+                        <div class="card-content">
+                            <span class="card-category">Hardware</span>
+                            <h3 class="card-title">Limpieza Física y Flujo de Aire</h3>
+                            <p class="card-text">La acumulación de polvo es el enemigo número uno. Aprende técnicas seguras para limpiar ventiladores, disipadores y filtros para asegurar un flujo de aire óptimo y sin obstrucciones, reduciendo el ruido y el calor.</p>
+                            
+                            <div class="card-checklist">
+                                <ul>
+                                    <li>Uso correcto de aire comprimido</li>
+                                    <li>Limpieza de aspas de ventiladores</li>
+                                    <li>Sustitución de pasta térmica (anual)</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+ 
+                    <!-- 2. Optimización Software (Original) -->
+                    <article class="guide-card featured" id="software">
+                        <div class="card-border-glow"></div>
+                        <div class="card-content">
+                            <span class="card-category">Software</span>
+                            <h3 class="card-title">Optimización de Sistema OS</h3>
+                            <p class="card-text">Un Windows limpio es un Windows rápido. Las actualizaciones de controladores y la eliminación del bloatware son esenciales. Descubre cómo mantener tu sistema operativo libre de procesos innecesarios.</p>
+                            
+                            <div class="card-checklist">
+                                <ul>
+                                    <li>Actualización de drivers (GPU, Chipset)</li>
+                                    <li>Desactivar inicio automático de apps</li>
+                                    <li>Limpieza de temporales y registro</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+ 
+                    <!-- 3. Control de Temperaturas (Original) -->
+                    <article class="guide-card" id="temperatura">
+                        <div class="card-content">
+                            <span class="card-category">Monitorización</span>
+                            <h3 class="card-title">Control Térmico (Temperaturas)</h3>
+                            <p class="card-text">El calor degrada los componentes. Aprende a utilizar software de monitorización para mantener los grados a raya y configurar curvas de ventilación personalizadas que equilibren rendimiento y silencio.</p>
+                            
+                            <div class="card-checklist">
+                                <ul>
+                                    <li>Rangos seguros para CPU (< 85°C)</li>
+                                    <li>Monitorización de hotspot en GPU</li>
+                                    <li>Undervolting básico</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- 4. Cable Management (Nuevo) -->
+                    <article class="guide-card">
+                        <div class="card-content">
+                            <span class="card-category">Estética y Flujo</span>
+                            <h3 class="card-title">Gestión de Cables Oculta</h3>
+                            <p class="card-text">No es solo por estética. Una maraña de cables bloquea el aire que entra frontalmente hacia la tarjeta gráfica y el procesador, aumentando las temperaturas generales del sistema notablemente.</p>
+                            
+                            <div class="card-checklist">
+                                <ul>
+                                    <li>Ruteo por la parte trasera del chasis</li>
+                                    <li>Uso de bridas y correas de velcro</li>
+                                    <li>Extensiones malladas para mejor look</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- 5. Actualizaciones de Hardware (Nuevo) -->
+                    <article class="guide-card">
+                        <div class="card-content">
+                            <span class="card-category">Escalabilidad</span>
+                            <h3 class="card-title">Cuándo Actualizar el Hardware</h3>
+                            <p class="card-text">Evita los cuellos de botella (bottlenecks). Identifica qué componente se está quedando corto antes de comprar un PC entero nuevo. A menudo, subir la RAM o cambiar a un SSD NVMe revive equipos viejos.</p>
+                            
+                            <div class="card-checklist">
+                                <ul>
+                                    <li>Añadir memoria RAM (Dual Channel)</li>
+                                    <li>Migrar SO a un almacenamiento M.2</li>
+                                    <li>Calcular cuello de botella CPU/GPU</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- 6. Backups/Copias de Seguridad (Nuevo) -->
+                    <article class="guide-card">
+                        <div class="card-content">
+                            <span class="card-category">Seguridad</span>
+                            <h3 class="card-title">Estrategia de Copias 3-2-1</h3>
+                            <p class="card-text">El hardware se reemplaza, los datos no. El desgaste de los SSD o un ataque de Ransomware puede destruir meses de trabajo u horas de partidas guardadas en segundos si no tienes un plan de contingencia.</p>
+                            
+                            <div class="card-checklist">
+                                <ul>
+                                    <li>Copias locales (Discos Duros Externos)</li>
+                                    <li>Almacenamiento Cifrado en la Nube</li>
+                                    <li>Imágenes del Sistema (Puntos de rest.)</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+        
+        <!-- CTA Section antes del Footer -->
+        <section class="cta-banner">
+            <div class="container cta-container">
+                <div class="cta-text">
+                    <h2>¿Listo para montar tu propia máquina?</h2>
+                    <p>Utiliza nuestra herramienta inteligente para encontrar los mejores componentes para tu presupuesto.</p>
+                </div>
+                <a href="../configurador/index.html" class="btn btn-primary">Ir al Configurador de PC</a>
+            </div>
+        </section>
+    </main>
+
+
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+</body>
+</html>
+
